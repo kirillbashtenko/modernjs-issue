@@ -1,0 +1,42 @@
+{
+  "name": "admin-info",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "prepare": "modern build",
+    "dev": "modern dev",
+    "build": "modern build",
+    "build:watch": "modern build -w",
+    "new": "modern new",
+    "upgrade": "modern upgrade"
+  },
+  "dependencies": {
+    "@ui/icon": "file:./icons",
+    "polished": "4.2.2",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "styled-components": "5.2.1"
+  },
+  "peerDependencies": {
+    "@modern-js/runtime": "2.22.0"
+  },
+  "devDependencies": {
+    "@modern-js-app/eslint-config": "2.22.0",
+    "@modern-js/eslint-config": "2.22.0",
+    "@modern-js/module-tools": "2.22.0",
+    "@modern-js/runtime": "2.22.0",
+    "@modern-js/tsconfig": "2.22.0",
+    "@types/jest": "~29.2.4",
+    "@types/node": "~16.11.7",
+    "@types/react": "~18.0.26",
+    "@types/styled-components": "5.1.6",
+    "husky": "~8.0.1",
+    "lint-staged": "~13.1.0",
+    "prettier": "~2.8.1",
+    "rimraf": "~3.0.2",
+    "typescript": "~5.0.4"
+  },
+  "sideEffects": []
+}
